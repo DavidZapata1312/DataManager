@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "101",
+      "name": "laptop",
+      "price": 3000,
+      "category": "electronics"
+    },
+    {
+      "id": "102",
+      "name": "mouse",
+      "price": 500,
+      "category": "accessories"
+    },
+    {
+      "id": "330d",
+      "name": "camera",
+      "price": 1010,
+      "category": "101"
+    }
+  ]
+}
