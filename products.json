@@ -13,10 +13,34 @@
       "category": "accessories"
     },
     {
-      "id": "330d",
+      "id": "0fbf",
       "name": "camera",
-      "price": 1010,
-      "category": "101"
+      "price": 2000,
+      "category": "tecnology"
+    },
+    {
+      "id": "5d32",
+      "name": "manolo",
+      "price": 210000,
+      "category": "people"
+    },
+    {
+      "id": "f4c6",
+      "name": "arroz",
+      "price": 2000,
+      "category": "food"
+    },
+    {
+      "id": "e6b6",
+      "name": "arrozzzzzz",
+      "price": 10,
+      "category": "food"
+    },
+    {
+      "id": "acc5",
+      "name": "conchale",
+      "price": 2000,
+      "category": "tecnology"
     }
   ]
 }

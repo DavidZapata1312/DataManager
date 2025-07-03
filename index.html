@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Product Manager</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!--  Add new product -->
   <h2>Add Product</h2>
   <form id="productForm">
     <input type="text" id="name" placeholder="Product name" required>
@@ -13,14 +16,29 @@
     <button type="submit">Add</button>
   </form>
 
+  <!--  Message display -->
+  <div id="msg" class="" style="display: none;">
+    <span id="msgText"></span>
+    <span id="closeMsg">✖</span>
+  </div>
+
   <hr>
 
+  <!--  Search product by name -->
   <h2>Search Product</h2>
   <input type="text" id="search" placeholder="Search by name">
   <button id="searchBtn">Search</button>
 
-  <div id="searchResult"></div>
+  <!-- 📌 Search result display -->
+  <div id="searchResult" style="margin-top: 10px;"></div>
 
+  <hr>
+
+  <!-- List of all products -->
+  <h2>All Products</h2>
+  <div id="allProducts" style="margin-top: 10px;"></div>
+
+  <!-- JS script -->
   <script src="gestion_api.js"></script>
 </body>
 </html>
