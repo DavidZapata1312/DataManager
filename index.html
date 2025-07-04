@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Product Manager</title>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./utils/style.css">
 </head>
-<body>
 
+<body>
+  <h1>Happy Store</h1>
   <!--  Add new product -->
   <h2>Add Product</h2>
+  <div class="header-logo">
+    <img src="./utils/cajero.png" alt="cajero">
+  </div>
   <form id="productForm">
     <input type="text" id="name" placeholder="Product name" required>
     <input type="number" id="price" placeholder="Price" required>
@@ -29,7 +34,7 @@
   <input type="text" id="search" placeholder="Search by name">
   <button id="searchBtn">Search</button>
 
-  <!-- 📌 Search result display -->
+  <!--  Search result display -->
   <div id="searchResult" style="margin-top: 10px;"></div>
 
   <hr>
@@ -39,6 +44,7 @@
   <div id="allProducts" style="margin-top: 10px;"></div>
 
   <!-- JS script -->
-  <script src="gestion_api.js"></script>
+  <script src="./scripts/gestion_api.js"></script>
 </body>
+
 </html>

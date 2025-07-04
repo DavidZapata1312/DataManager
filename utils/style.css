@@ -1,0 +1,125 @@
+/* === Reset básico === */
+h1 {
+  font-size: 3rem;
+  color: #7e6ca8; /* Azul Suicune */
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+  text-shadow: 1px 1px 2px rgba(126, 108, 168, 0.4); /* Sombrita lila */
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7ff, #f0f8ff);
+  color: #2c2c2c;
+  padding: 2rem;
+  margin: 0;
+}
+
+/* === Títulos === */
+h2 {
+  color: #3bb2d0;
+  border-left: 5px solid #7e6ca8;
+  padding-left: 10px;
+}
+
+/* === Formularios === */
+form input,
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  margin: 5px 5px 5px 0;
+  border: 2px solid #7e6ca8;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  transition: border 0.3s ease;
+}
+
+form input:focus {
+  border-color: #3bb2d0;
+}
+
+button {
+  background-color: #3bb2d0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a92b0;
+}
+
+/* === Mensaje de estado === */
+#msg {
+  margin: 10px 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Succes (azul Suicune) */
+.success {
+  color: #155e75;
+  background-color: #c2f1ff;
+  border: 1px solid #3bb2d0;
+}
+
+/* Error (lila intenso) */
+.error {
+  color: #5a1d5a;
+  background-color: #f6e6ff;
+  border: 1px solid #7e6ca8;
+}
+
+#closeMsg {
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: normal;
+  color: #555;
+}
+
+/* === Resultados de búsqueda y productos === */
+#searchResult, #allProducts {
+  padding: 10px;
+  background: #ffffffee;
+  border: 1px solid #d0e8f8;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.result {
+  background-color: #f0f8ff;
+  border-left: 4px solid #3bb2d0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* === Transiciones suaves === */
+input, button, #msg {
+  transition: all 0.2s ease-in-out;
+}
+/* === Banner/Header Image === */
+.header-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.header-logo img {
+  width: 500px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #3bb2d0;
+}

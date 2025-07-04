@@ -19,28 +19,52 @@
       "category": "tecnology"
     },
     {
-      "id": "5d32",
-      "name": "manolo",
-      "price": 210000,
-      "category": "people"
-    },
-    {
-      "id": "f4c6",
-      "name": "arroz",
-      "price": 2000,
-      "category": "food"
-    },
-    {
-      "id": "e6b6",
-      "name": "arrozzzzzz",
-      "price": 10,
-      "category": "food"
-    },
-    {
       "id": "acc5",
       "name": "conchale",
       "price": 2000,
       "category": "tecnology"
+    },
+    {
+      "id": "81bb",
+      "name": "phone",
+      "price": 1000,
+      "category": "tecnology"
+    },
+    {
+      "id": "e632",
+      "name": "coffe red seal",
+      "price": 5000,
+      "category": "drink"
+    },
+    {
+      "id": "0c49",
+      "name": "carta",
+      "price": 10,
+      "category": "carta"
+    },
+    {
+      "id": "2b8c",
+      "name": "jopo",
+      "price": 10,
+      "category": "jopo"
+    },
+    {
+      "id": "fef1",
+      "name": "a",
+      "price": 1,
+      "category": "101101"
+    },
+    {
+      "id": "1201",
+      "name": "peerro",
+      "price": 1,
+      "category": "tecnology"
+    },
+    {
+      "id": "8418",
+      "name": "mantequilla",
+      "price": 1,
+      "category": "gente"
     }
   ]
 }
